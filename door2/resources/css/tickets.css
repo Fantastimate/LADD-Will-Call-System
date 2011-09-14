@@ -1,0 +1,113 @@
+.ticket-list{
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+.ticket-list:last-child{
+	margin-bottom:150px;
+}
+
+.ticket-list ul {
+	list-style-type:none;
+	clear:both;
+	margin:0;
+	padding:0;
+	text-align:left;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background:#fff;
+	overflow:hidden;
+	padding-bottom:3px;
+}
+
+.ticket-list ul:last-child{
+	border-bottom:1px solid #ccc;
+}
+
+.ticket{
+	font-size:18px;
+	min-height:40px;
+}
+
+.ticket li{
+	float:left;
+	padding-top:8px;
+	width:100px;
+	border-left:1px solid #ccc;
+	padding-left:5px;
+	min-height:32px;
+	padding-bottom:500px;
+	margin-bottom:-500px;
+}
+
+.ticket li div{
+	padding-bottom:5px;
+}
+
+.ticket li.id{
+	width:273px;
+}
+
+.ticket li.lastname{
+	width:150px;
+}
+
+.ticket li.firstname{
+	width:150px;
+}
+.ticket li:first-child{
+	border-left:none;
+}
+
+.ticket li:last-child{
+	border-right:none
+}
+
+.ticket li.claim a.notification{
+	display:block;
+	background:url("/resources/images/graphics/infocon.png") no-repeat;
+	width:16px;
+	height:16px;
+	text-indent:-5000px;
+	float:right;
+	margin:4px 10px 0 0;
+	cursor:default;
+}
+
+.ticket .split.enabled{
+	background:#dafbda;
+}
+
+.ticket .split.enabled a{
+	color:#00cc00;
+}
+
+.ticket .split.disabled{
+	background:#fbdadd;
+}
+
+.ticket .split.disabled a{
+	text-decoration:none;
+	color:#cc0000;
+	cursor:default;
+}
+
+.notification{
+	font-size:12px;
+	font-style:italic;
+}
+
+.ticket-list .notification{
+	display:none;
+}
+
+.notification li{
+	padding-left:10px;
+	height:20px;
+	padding-top:5px;
+	background:url("/resources/images/backgrounds/background-split-notification.gif") top left;
+}
+.ticket:hover{
+	background:#fbf073;
+}

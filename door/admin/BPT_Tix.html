@@ -1,0 +1,30 @@
+<html>
+	<body>
+
+- Log onto <A HREF="http://www.brownpapertickets.com/">Brown Paper Tickets</A>.<BR>
+- Deactivate ticket sales for the current event.<BR>
+- Go to the SALES link for the current event.<BR>
+- Select <I>"View individual sales in complete format."</I>.<BR>
+- Click <B>VIEW SALES</B> button.<BR>
+- On the top, click <I><B>Tab Delimited File (Excel).</B></I><BR><BR>
+- This will download a file called tdsales.xls to your computer.  Save this file.<BR>
+- Edit the name of the tdsales.xls file to reflect the game date (example: <I>tdsales-12-04-2009.xls</I>)<BR><BR>
+
+Use the form below to upload the xls file into the system.<BR><BR><BR>
+
+
+<form action="upload_file_bpt.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file" />
+<input type="submit" name="submit" value="Submit" />
+</form><BR><BR>
+
+<FONT SIZE=4>
+- Please be sure ticket sales are closed before using this interface: there will be no way to reload ticket data!<BR>
+- Be sure to only load the BPT tdsales file once!<BR>
+</FONT>
+
+</body>
+</html> 
+

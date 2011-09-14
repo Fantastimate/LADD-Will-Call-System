@@ -1,0 +1,62 @@
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	color: #000000;
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
+}
+
+.container{
+	width:700px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dotted #333;
+	min-height:500px;
+	background:#eee url("/resources/images/backgrounds/background-container.png") repeat-x bottom left;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow:rgba(0,0,0,0.5) 0px 1px 25px;
+	-moz-box-shadow:rgba(0,0,0,0.5) 0px 1px 25px;
+}
+
+.container .ui{
+	background:url("/resources/images/backgrounds/background-logo.png") no-repeat bottom right;
+	min-height:500px;
+	margin-top:60px;
+}
+
+.confirmed {
+	background-color:#0F0;
+}
+.alreadyclaimed {
+	background-color:#F00;
+}
+
+h1{
+	font-size:20px;
+}
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

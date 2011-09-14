@@ -1,0 +1,131 @@
+.ticket-list{
+	margin-bottom:50px;
+}
+
+.ticket-list input[type='text']{
+	width:160px;
+	border:1px solid #ccc;
+	background:#eee;
+	color:#999;
+	padding:3px 3px;
+}
+
+.ticket-list ul {
+	list-style-type:none;
+	clear:both;
+	margin:0;
+	padding:0;
+	text-align:left;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background:#fff;
+}
+
+.ticket-list ul:last-child{
+	border-bottom:1px solid #ccc;
+}
+
+.ticket-list .ticket{
+	height:30px;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+
+
+.ticket-list .ticket.unclaimed{
+	
+}
+
+.ticket-list .ticket.claimed{
+	background:url("/resources/images/backgrounds/background-split-notification.gif") top left;
+}
+
+.ticket-list .ticket.unclaimed .label{
+	float:left;
+	width:190px;
+}
+
+.ticket-list .ticket.unclaimed .action{
+	float:left;
+	width:145px;
+}
+
+
+.ticket-list .ticket.unclaimed .input{
+	float:left;
+	display:none;
+}
+
+.ticket-list .ticket.unclaimed .input input{
+	font-size:16px;
+	margin-top:-5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	/*
+	-webkit-box-shadow:rgba(0,0,0,0.1) 0px 1px 5px;
+	-moz-box-shadow:rgba(0,0,0,0.1) 0px 1px 5px;
+	*/
+	outline:none;
+}
+
+.container .actions{
+	background:#fff;
+	padding:30px 0;
+	text-align:center;
+}
+
+.container .actions button a{
+	text-decoration:none;
+	color:#000;
+}
+
+.actions{
+	text-align:center;
+	padding:30px 0;
+	clear:both;
+	background:#ffffff;
+}
+.actions ul{
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	width:450px;
+}
+
+.actions ul li{
+	font-size:24px;
+	float:left;
+	text-align:left;
+	height:40px;
+	padding-top:7px;
+	text-align:center;
+}
+
+
+.actions ul li.confirm{
+	width:150px;
+	margin-right:100px;
+	background:#dafbda;
+	border:1px solid #7bf766;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.actions ul li.confirm a{
+	color:#00cc00;
+}
+
+
+.actions ul li.cancel{
+	width:150px;
+	background:#fbdadd;
+	border:1px solid #f76666;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.actions ul li.cancel a{
+	color:#cc0000;
+}

@@ -1,0 +1,21 @@
+#notifications-container{
+	background:#fff;
+	padding:10px;
+	display:none;
+}
+#notifications-container .notification{
+	min-height:20px;
+	padding-top:5px;
+	padding-left:10px;
+	margin-bottom:3px;
+}
+
+#notifications-container .notification.success{
+	background:url("/resources/images/backgrounds/background-notification-success.gif") top left;
+	border:1px solid #b3fdb0;
+}
+
+#notifications-container .notification.error{
+	background:url("/resources/images/backgrounds/background-notification-error.gif") top left;
+	border:1px solid #fdb0b6;
+}

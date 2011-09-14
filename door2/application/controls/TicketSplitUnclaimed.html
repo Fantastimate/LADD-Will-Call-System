@@ -1,0 +1,19 @@
+	<ul>
+		<li class="ticket unclaimed">
+			<div>
+				<div class="label">{firstname} {lastname}</div>
+				<div class="action">
+					<label for="claim">Claim</label><input type="radio" name="ticketaction[{id}]" value="claim" id="claim" checked="checked">
+					<label for="split">Split</label><input type="radio" name="ticketaction[{id}]" value="split" id="split">
+				</div>
+				<div class="input">
+					<input type="text" name="splitfirstname[{id}]" value="" placeholder="First Name">
+					<input type="text" name="splitlastname[{id}]" value="" placeholder="Last Name">
+				</div>
+				<input type="hidden" name="hostfirstname[{id}]" value="{firstname}">
+				<input type="hidden" name="hostlastname[{id}]" value="{lastname}">
+				<input type="hidden" name="ticketlevel[{id}]" value="{level}">
+				<input type="hidden" name="tickets[]" value='{id}'>
+			</div>
+		</li>
+	</ul>

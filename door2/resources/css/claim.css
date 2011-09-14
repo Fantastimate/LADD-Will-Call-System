@@ -1,0 +1,62 @@
+h1 span{
+	font-style:italic;
+}
+
+.ticket-list{
+	margin-bottom:50px;
+}
+.ticket li.name{
+	width:500px;
+	border-right:none;
+}
+
+.action{
+	text-align:center;
+	padding:30px 0;
+	clear:both;
+	background:#ffffff;
+}
+.action ul{
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	width:400px;
+}
+
+.action ul li{
+	font-size:24px;
+	float:left;
+	text-align:left;
+	height:40px;
+	padding-top:7px;
+	text-align:center;
+}
+.action ul li a span{
+	font-weight:bold;
+}
+
+.action ul li.confirm{
+	width:150px;
+	margin-right:100px;
+	background:#dafbda;
+	border:1px solid #7bf766;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.action ul li.confirm a{
+	color:#00cc00;
+}
+
+
+.action ul li.cancel{
+	width:130px;
+	background:#fbdadd;
+	border:1px solid #f76666;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.action ul li.cancel a{
+	color:#cc0000;
+}

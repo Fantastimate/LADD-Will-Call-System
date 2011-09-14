@@ -1,0 +1,4 @@
+$(function(){
+	
+	$(".action").corner('round');
+})

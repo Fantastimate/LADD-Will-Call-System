@@ -1,0 +1,28 @@
+#lettersort{
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+
+#lettersort a{
+	color:#333;
+}
+
+#lettersort #fulllist{
+	padding-bottom:20px;
+	
+}
+
+#lettersort ul{
+	list-style-type:none;
+	white-space:nowrap;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:20px;
+	width:550px;
+}
+
+#lettersort ul li{
+	float:left;
+	width:20px;
+	text-align:left;
+}
